@@ -78,4 +78,32 @@ public class Usuario {
 		}
 	
 	
+		public void selectTodos() {
+			for(int i=0; i<this.usuarios.size();i++) {
+				System.out.println("Nombre: "+this.nombre);
+				System.out.println("Apellido: "+this.apellido);
+				System.out.println("Contraseña: "+this.contrasenia);
+				System.out.println("Sexo: "+this.sexo);
+				System.out.println("Ocupacion: "+this.ocupacion);
+				System.out.println("Edad: "+this.edad);
+				System.out.println("Id: "+this.id);
+				
+			}
+		}
+		
+		public void insert() {
+			
+		}
+		
+		public void delete() {
+			
+		}
+		
+		public void update() {
+			
+		}
 }
+
+
+
+
