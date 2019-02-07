@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Usuario extends UsuarioModelo {
 		
+	
 	private String nombre;
 	private String apellido;
 	private String contrasenia;
