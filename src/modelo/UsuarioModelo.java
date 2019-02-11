@@ -1,7 +1,7 @@
 package modelo;
 import java.util.*;
 
-public class UsuarioModelo {
+public class UsuarioModelo extends Usuario{
 	
 	public UsuarioModelo() {
 		super();

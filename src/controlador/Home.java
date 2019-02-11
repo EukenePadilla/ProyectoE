@@ -10,16 +10,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class CrearUsuario
+ * Servlet implementation class Home
  */
-@WebServlet("/CrearUsuario")
-public class CrearUsuario extends HttpServlet {
+@WebServlet("/Home")
+public class Home extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public CrearUsuario() {
+    public Home() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -28,9 +28,10 @@ public class CrearUsuario extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		//abre el formulario de registro
-		RequestDispatcher rd = request.getRequestDispatcher("formularioRegistro.jsp");
+		// TODO Auto-generated method stub
+		RequestDispatcher rd = request.getRequestDispatcher("Home.jsp");//redirecciona la página home.
 		rd.forward(request,response);
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
 	/**

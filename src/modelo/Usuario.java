@@ -2,12 +2,36 @@ package modelo;
 
 import java.util.ArrayList;
 
-public class Usuario extends UsuarioModelo {
+public class Usuario  {
 		
 	
+	public Usuario(String nombre, String apellido, String contrasenia,String email, String sexo, String ocupacion, int edad,
+			int id) {
+		super();
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.contrasenia = contrasenia;
+		this.email = email;
+		this.sexo = sexo;
+		this.ocupacion = ocupacion;
+		this.edad = edad;
+		this.id = id;
+	}
+	public Usuario() {
+		super();
+	}
 	private String nombre;
 	private String apellido;
 	private String contrasenia;
+	private String email;
+	
+	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
 	private String sexo;
 	private String ocupacion;
 	private int edad;
