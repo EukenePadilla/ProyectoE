@@ -1,0 +1,31 @@
+
+.contenido{
+    width: 75%;
+    float: right
+}
+menu{
+    width: 20%;
+    /* margin:auto */
+    margin-top: 60px;
+}
+main{
+    display: flex
+}
+header {
+    height: 70px;
+}
+/* form{
+    margin:15% 30% 0% 30%;
+} 
+
+@media(max-width:750px){
+    form{
+        margin:15% 10% 0% 10%;
+    }
+}
+
+@media(max-width:1200px){
+    form{
+        margin:15% 20% 0% 20%;
+    }
+} */

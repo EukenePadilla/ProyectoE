@@ -34,5 +34,6 @@ public class Conector {
 	public void setConexion(Connection conexion) {
 		this.conexion = conexion;
 	}
+	 
 	
 }
