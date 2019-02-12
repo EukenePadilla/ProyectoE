@@ -57,11 +57,11 @@
   </header>
   <main class="row">
     <div class="col-3"></div>
-        <form class="col-md-6">
+        <form class="col-md-6" action="GuardarUsuario" method="post">
                 <div class="form-row"> 
                   <div class="form-group col-md-6">
                     <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email">
                   </div>
                   <div class="form-row">
                         <div class="col col-md-6">
