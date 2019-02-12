@@ -66,15 +66,16 @@
                   <div class="form-row">
                         <div class="col col-md-6">
                                 <label for="inputEmail4">First name</label>
-                            <input type="text" class="form-control" placeholder="First name">
+                            <input type="text" name="nombre" class="form-control" placeholder="First name">
                         </div>
                         <div class="col col-md-6">
                                 <label for="inputEmail4">Last name</label>
-                            <input type="text" class="form-control" placeholder="Last name">
+                            <input type="text" name="apellido" class="form-control" placeholder="Last name">
                         </div>
                     </div>
                 </div>
-                <div class="form-group">
+                
+               <!--  <div class="form-group">
                   <label for="inputAddress">Address</label>
                   <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                 </div>
@@ -104,7 +105,8 @@
                             </select>
                     </div>
                 </div>
-      
+      			-->
+      			
                 <div class="form-group">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="gridCheck">
