@@ -16,8 +16,7 @@ public class UsuarioModelo extends Usuario{
 	}
 	
 	public void insert(Usuario usuario) {
-		
-		
+				
 	}
 	
 	public void delete(Usuario usuario) {
