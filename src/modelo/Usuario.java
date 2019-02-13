@@ -3,27 +3,31 @@ package modelo;
 import java.util.ArrayList;
 
 public class Usuario  {
-		
-	
-	public Usuario(String nombre, String apellido, String contrasenia,String email, String sexo, String ocupacion, int edad,
-			int id) {
-		super();
-		this.nombre = nombre;
-		this.apellido = apellido;
-		this.contrasenia = contrasenia;
-		this.email = email;
-		this.sexo = sexo;
-		this.ocupacion = ocupacion;
-		this.edad = edad;
-		this.id = id;
-	}
-	public Usuario() {
-		super();
-	}
 	private String nombre;
 	private String apellido;
 	private String contrasenia;
 	private String email;
+	private String sexo;
+	private String ocupacion;
+	private int edad;
+	private int id_usuario;
+
+	
+
+	
+	public Usuario(String nombre, String contrasenia, String email) {
+		super();
+		this.nombre = nombre;
+		this.contrasenia = contrasenia;
+		this.email = email;
+	}
+
+
+
+	public Usuario() {
+		super();
+	}
+	
 	
 	
 	public String getEmail() {
@@ -32,10 +36,7 @@ public class Usuario  {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	private String sexo;
-	private String ocupacion;
-	private int edad;
-	private int id;
+
 	
 	public String getNombre() {
 		return nombre;
@@ -73,11 +74,11 @@ public class Usuario  {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-	public int getId() {
-		return id;
+	public int getId_usuario() {
+		return id_usuario;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setId_usuario(int id) {
+		this.id_usuario = id;
 	}
 		
 		
