@@ -17,12 +17,12 @@ public class UsuarioModelo extends Usuario{
 	
 	public void insert(Usuario usuario) {
 	
-		//INSERT nombre , contrasenia,correo 
+		//INSERT INTO usuarios ( nombre , contrasenia,correo)  VALUES (var1,var2,var3) ;
 		
 	}
 	
 	public void delete(Usuario usuario) {
-//		DELETE from usuarios where id_usuario="var"
+//		DELETE from usuarios where id_usuario="var";
 	}
 	
 	public void update(Usuario usuario) {
