@@ -1,7 +1,9 @@
 package modelo;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.*;
 
-public class UsuarioModelo extends Usuario{
+public class UsuarioModelo extends Conector{
 	
 	public UsuarioModelo() {
 		super();
@@ -18,6 +20,17 @@ public class UsuarioModelo extends Usuario{
 	public void insert(Usuario usuario) {
 	
 		//INSERT INTO usuarios ( nombre , contrasenia,correo)  VALUES (var1,var2,var3) ;
+		try {
+			PreparedStatement pst = this.conexion.prepareStatement("INSERT INTO usuarios ( nombre , contrasenia,correo)  VALUES (?,?,?)");
+			pst.setString(1, usuario.getNombre());
+			pst.setString(2, usuario.getContrasenia());
+			pst.setString(3, usuario.getCorreo());
+			
+			pst.execute();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 	
