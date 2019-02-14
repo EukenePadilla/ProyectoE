@@ -60,17 +60,17 @@
         <form class="col-md-6" action="GuardarUsuario" method="post">
                 <div class="form-row"> 
                   <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    <label for="inputEmail4">Nombre</label>
+                    <input type="text" name="nombre" class="form-control" id="inputEmail4" placeholder="Email">
                   </div>
                   <div class="form-row">
                         <div class="col col-md-6">
-                                <label for="inputEmail4">First name</label>
-                            <input type="text" name="nombre" class="form-control" placeholder="First name">
+                                <label for="inputEmail4">Contraseña</label>
+                            <input type="text" name="contrasenia" class="form-control" placeholder="First name">
                         </div>
                         <div class="col col-md-6">
-                                <label for="inputEmail4">Last name</label>
-                            <input type="text" name="apellido" class="form-control" placeholder="Last name">
+                                <label for="inputEmail4">Correo</label>
+                            <input type="text" name="correo" class="form-control" placeholder="Last name">
                         </div>
                     </div>
                 </div>
