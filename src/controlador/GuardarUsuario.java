@@ -40,13 +40,13 @@ public class GuardarUsuario extends HttpServlet {
 		//recibir parametros
 		String inputUsername = request.getParameter("nombre");
 		String inputPassword = request.getParameter("contrasenia");
-		String inputEmail = request.getParameter("email");
+		String inputCorreo = request.getParameter("correo");
 		
 		
 		Usuario usuario = new Usuario();
 		usuario.setNombre(inputUsername);
 		usuario.setContrasenia(inputPassword);
-		usuario.setEmail(inputEmail);
+		usuario.setCorreo(inputCorreo);
 //		
 //		
 		UsuarioModelo us = new UsuarioModelo();

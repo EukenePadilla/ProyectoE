@@ -6,7 +6,7 @@ public class Usuario  {
 	private String nombre;
 	private String apellido;
 	private String contrasenia;
-	private String email;
+	private String correo;
 	private String sexo;
 	private String ocupacion;
 	private int edad;
@@ -15,11 +15,11 @@ public class Usuario  {
 	
 
 	
-	public Usuario(String nombre, String contrasenia, String email) {
+	public Usuario(String nombre, String contrasenia, String correo) {
 		super();
 		this.nombre = nombre;
 		this.contrasenia = contrasenia;
-		this.email = email;
+		this.correo = correo;
 	}
 
 
@@ -30,11 +30,11 @@ public class Usuario  {
 	
 	
 	
-	public String getEmail() {
-		return email;
+	public String getCorreo() {
+		return correo;
 	}
-	public void setEmail(String email) {
-		this.email = email;
+	public void setCorreo(String correo) {
+		this.correo = correo;
 	}
 
 	
